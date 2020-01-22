@@ -1,10 +1,10 @@
 console.log("COMBO CHALLENGE!")
 
 const evenOdd = (num) => {
-    if (num % 2){
-        return 'odd';
-    } else {
+    if (num % 2 === 0){
         return 'even';
+    } else {
+        return 'odd';
     }
 }
 
@@ -20,9 +20,14 @@ console.log(opposite(0));
 console.log(opposite(9));
 
 const palindrome = (word) => {
-    for (var c of word) {
-        console.log(c);
-    }
+    const opp = test.split('').reverse().join('');
+    console.log('opp', opp)
+    
 }
 
 console.log(palindrome("racecar"));
+
+
+const eatingHabits = (animalName) => {
+    if
+} 
